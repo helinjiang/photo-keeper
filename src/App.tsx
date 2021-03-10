@@ -5,6 +5,8 @@ import { Button } from 'antd';
 import icon from '../assets/icon.svg';
 import './App.global.css';
 
+import './mytest.less';
+
 const Hello = () => {
   return (
     <div>
