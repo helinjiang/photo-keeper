@@ -56,6 +56,9 @@ module.exports = (api) => {
       [require('@babel/plugin-proposal-class-properties'), { loose: true }],
       require('@babel/plugin-proposal-json-strings'),
 
+      // antd
+      ['import', { libraryName: 'antd', style: true }],
+
       ...(development ? developmentPlugins : productionPlugins),
     ],
   };
