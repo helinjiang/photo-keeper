@@ -2,7 +2,7 @@
  * @NOTE: Prepend a `~` to css file paths that are in your node_modules
  *        See https://github.com/webpack-contrib/sass-loader#imports
  */
-body {
+/* body {
   position: relative;
   color: white;
   height: 100vh;
@@ -17,9 +17,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-button {
+/* button {
   background-color: white;
   padding: 10px 20px;
   margin: 10px;
@@ -34,9 +34,9 @@ button {
 
 button:hover {
   transform: scale(1.05);
-}
+} */
 
-li {
+/* li {
   list-style: none;
 }
 
@@ -55,4 +55,4 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
-}
+} */

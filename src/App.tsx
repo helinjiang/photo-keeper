@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Button } from 'antd';
+
 import icon from '../assets/icon.svg';
 import './App.global.css';
 
@@ -35,6 +37,14 @@ const Hello = () => {
             Donate
           </button>
         </a>
+      </div>
+      <div className="test">
+        <Button type="primary">Primary Button</Button>
+        <Button>Default Button</Button>
+        <Button type="dashed">Dashed Button</Button>
+        <br />
+        <Button type="text">Text Button</Button>
+        <Button type="link">Link Button</Button>
       </div>
     </div>
   );
