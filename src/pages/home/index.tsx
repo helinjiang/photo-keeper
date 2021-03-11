@@ -1,12 +1,20 @@
 import React from 'react';
 import { Button } from 'antd';
+import { NavLink } from 'react-router-dom';
 
 import './index.less';
 
 export default function PageHome() {
   return (
     <div className="page-home">
-      <h2>hello, home</h2>
+      <h2>这是首页</h2>
+
+      <ul>
+        <li>
+          <NavLink to={`/help`}>帮助页</NavLink>
+        </li>
+      </ul>
+
       <div className="test">
         <Button type="primary">Primary Button</Button>
         <Button>Default Button</Button>
