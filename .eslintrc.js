@@ -3,6 +3,9 @@ module.exports = {
   rules: {
     // A temporary hack related to IDE not resolving correct package.json
     'import/no-extraneous-dependencies': 'off',
+
+    // 没有意义
+    'react/jsx-curly-brace-presence': 0,
   },
   parserOptions: {
     ecmaVersion: 2020,

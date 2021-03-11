@@ -10,7 +10,7 @@ export default function PageHelp() {
       <h2>帮助手册</h2>
       <p>这是帮助页面，说明系统怎么用。</p>
 
-      <NavLink to={`/`}>
+      <NavLink to="/">
         <Button type="primary">返回首页</Button>
       </NavLink>
     </div>

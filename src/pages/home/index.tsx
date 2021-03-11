@@ -11,7 +11,7 @@ export default function PageHome() {
 
       <ul>
         <li>
-          <NavLink to={`/help`}>帮助页</NavLink>
+          <NavLink to="/help">帮助页</NavLink>
         </li>
       </ul>
 
